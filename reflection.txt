@@ -1,0 +1,26 @@
+---The steps you took to create and manage branches.
+
+These are my steps:
+1 git checkout -b [branch name]
+2 make change
+3 ctl S
+4 add sba.html
+5 commit -m "comment"
+6 git checkout main
+7 git merge [branch name]
+8 used "apply all changes" option for the conflicts
+9 git push origin main
+10 created a branch for pull request
+11 added an additional line
+12 git push after adding and commiting that change
+13 saw that I could do a pull request but create one
+14 Done
+
+---How you handled the merge conflict.
+
+I added text to line one on each branch, and they could easily be mereged because they would be compatible together on different lines.
+
+---How the pull request process helped you ensure code quality and collaboration.
+
+I understand that pull requests won't work if there are redundant branches, which is helpful because you don't want to have clutter. Everything
+else seems pretty self explanatory.
